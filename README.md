@@ -2,4 +2,4 @@
 
 Using C and NI CVI
 
-![Program GUI](http://i.imgur.com/XXXQKoN.png)
+![Program GUI](https://raw.githubusercontent.com/MeowLucian/Whac-A-Mole-Game/master/Picture/GUI.bmp)
