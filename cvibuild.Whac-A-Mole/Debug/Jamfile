@@ -1,0 +1,42 @@
+CCFLAGS = -g ;
+HDRS = 	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\activex\\word"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\activex\\excel"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\custctrl"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\custctrl\\custsupp"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\cvirtsup"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\datasock"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\daqUtil"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\printing"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\toolbox"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\reportgen"
+	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\localui"
+	"e:\\national instruments\\national instruments\\cvi2013\\instr"
+	"E:\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"E:\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"E:\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
+	"e:\\national instruments\\national instruments\\cvi2013\\include"
+	"E:\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"e:\\national instruments\\national instruments\\cvi2013\\include\\ansi"
+	"e:\\national instruments\\national instruments\\cvi2013\\include\\clang\\2.9"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"e:\\national instruments\\national instruments\\cvi2013\\sdk\\include"
+	"e:\\National Instruments\\National Instruments\\CVI2013\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
+	"e:\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "Whac-A-Mole.c" = "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole" ;
+Object "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\Whac-A-Mole.c" ;
+FILENUM on "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" = 1 ;
+DEFPROTS on "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" = "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" = "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj.out" ;
+PrjObjects += "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" ;
+Object "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\resources.res" : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\resources.in.rc" ;
+MainFromObjects "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" ;

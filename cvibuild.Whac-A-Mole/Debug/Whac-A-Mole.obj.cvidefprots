@@ -1,0 +1,52 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[Start]
+Class="Function"
+Prototype="int Start(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ProcessLoop]
+Class="Function"
+Prototype="int ProcessLoop(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Hole_1]
+Class="Function"
+Prototype="int Hole_1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Hole_2]
+Class="Function"
+Prototype="int Hole_2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Hole_3]
+Class="Function"
+Prototype="int Hole_3(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Hole_4]
+Class="Function"
+Prototype="int Hole_4(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Hole_5]
+Class="Function"
+Prototype="int Hole_5(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Hole_6]
+Class="Function"
+Prototype="int Hole_6(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Hole_7]
+Class="Function"
+Prototype="int Hole_7(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Hole_8]
+Class="Function"
+Prototype="int Hole_8(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Hole_9]
+Class="Function"
+Prototype="int Hole_9(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Quit]
+Class="Function"
+Prototype="int Quit(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

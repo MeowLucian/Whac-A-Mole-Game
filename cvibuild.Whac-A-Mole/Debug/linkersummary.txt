@@ -1,0 +1,7 @@
+Whac-A-Mole.obj
+cvi.lib
+cvistart.lib
+user32.lib
+kernel32.lib
+EXE Symbol Module
+Resource Module
