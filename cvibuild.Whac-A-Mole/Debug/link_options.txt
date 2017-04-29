@@ -1,38 +1,29 @@
 -nologo
--out:c:\Users\TTLIN\Desktop\Whac-A-Mole\cvibuild.Whac-A-Mole\Debug\Whac-A-Mole.exe
+-out:c:\Users\User\Desktop\Whac-A-Mole-Game\cvibuild.Whac-A-Mole\Debug\Whac-A-Mole.exe
 -arch:x86
 -timestamp
 -debug:2
--res:c:\Users\TTLIN\Desktop\Whac-A-Mole\cvibuild.Whac-A-Mole\Debug\resources.res
+-res:c:\Users\User\Desktop\Whac-A-Mole-Game\cvibuild.Whac-A-Mole\Debug\resources.res
 -entry:_CVIWinMainStartupCodeForDebugging@0
 -base:0x400000
--linked:c:\Users\TTLIN\Desktop\Whac-A-Mole\cvibuild.Whac-A-Mole\Debug\linkersummary.txt
--dlldeps:c:\Users\TTLIN\Desktop\Whac-A-Mole\cvibuild.Whac-A-Mole\Debug\dlldependencies.txt
--licensing:c:\Users\TTLIN\Desktop\Whac-A-Mole\cvibuild.Whac-A-Mole\Debug\linkerlicensing.txt
--browsedeps:c:\Users\TTLIN\Desktop\Whac-A-Mole\cvibuild.Whac-A-Mole\Debug\moduledependencies.txt
+-linked:c:\Users\User\Desktop\Whac-A-Mole-Game\cvibuild.Whac-A-Mole\Debug\linkersummary.txt
+-dlldeps:c:\Users\User\Desktop\Whac-A-Mole-Game\cvibuild.Whac-A-Mole\Debug\dlldependencies.txt
+-licensing:c:\Users\User\Desktop\Whac-A-Mole-Game\cvibuild.Whac-A-Mole\Debug\linkerlicensing.txt
+-browsedeps:c:\Users\User\Desktop\Whac-A-Mole-Game\cvibuild.Whac-A-Mole\Debug\moduledependencies.txt
 -stackreserve:1048576
 -stackcommit:4096
--in:c:\Users\TTLIN\Desktop\Whac-A-Mole\cvibuild.Whac-A-Mole\Debug\Whac-A-Mole.obj
--more:e:\national instruments\national instruments\cvi2013\bin\msvc\cvistart.lib
--more:e:\national instruments\national instruments\cvi2013\bin\msvc\cvi.lib
--more:e:\national instruments\national instruments\cvi2013\sdk\lib\msvc\advapi32.lib
--more:c:\ProgramData\National Instruments\CVI2013\bin\msvc\analysis.lib
--more:e:\National Instruments\National Instruments\CVI2013\toolslib\toolbox\msvc\asynctmr.obj
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\cviauto.lib
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\cviddc.lib
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\cvidotnet.lib
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\cvinetstreams.lib
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\cvinetv.lib
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\cvintwrk.lib
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\cvitdms.lib
--more:e:\national instruments\national instruments\cvi2013\sdk\lib\msvc\gdi32.lib
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\gpib.lib
--more:e:\national instruments\national instruments\cvi2013\sdk\lib\msvc\kernel32.lib
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\nivxi.lib
--more:e:\National Instruments\National Instruments\CVI2013\bin\msvc\omp.lib
--more:e:\National Instruments\Shared\CVI\Bin\msvc\pid.lib
--more:e:\National Instruments\National Instruments\CVI2013\toolslib\toolbox\msvc\toolbox.obj
--more:e:\national instruments\national instruments\cvi2013\sdk\lib\msvc\user32.lib
--more:e:\national instruments\national instruments\cvi2013\sdk\lib\msvc\uuid.lib
--more:e:\National Instruments\Shared\CVI\Bin\msvc\visa.lib
--more:e:\national instruments\national instruments\cvi2013\sdk\lib\msvc\winmm.lib
+-in:c:\Users\User\Desktop\Whac-A-Mole-Game\cvibuild.Whac-A-Mole\Debug\Whac-A-Mole.obj
+-more:d:\national instruments\cvi2015\bin\msvc\cvistart.lib
+-more:d:\national instruments\cvi2015\bin\msvc\cvi.lib
+-more:c:\ProgramData\National Instruments\CVI2015\bin\msvc\analysis.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cviauto.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvidotnet.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvinetstreams.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvinetv.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvintwrk.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvitdms.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\gpib.lib
+-more:d:\National Instruments\Shared\CVI\Bin\msvc\ivi.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\nivxi.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\omp.lib
+-more:d:\National Instruments\Shared\CVI\Bin\msvc\visa.lib

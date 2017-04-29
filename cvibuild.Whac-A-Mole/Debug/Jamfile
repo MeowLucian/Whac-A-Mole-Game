@@ -1,42 +1,42 @@
 CCFLAGS = -g ;
-HDRS = 	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\activex\\word"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\activex\\excel"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\custctrl"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\custctrl\\custsupp"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\cvirtsup"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\datasock"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\daqUtil"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\printing"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\toolbox"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\reportgen"
-	"e:\\national instruments\\national instruments\\cvi2013\\toolslib\\localui"
-	"e:\\national instruments\\national instruments\\cvi2013\\instr"
-	"E:\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
-	"E:\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
-	"E:\\National Instruments\\Shared\\CVI\\instr"
-	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
-	"e:\\national instruments\\national instruments\\cvi2013\\include"
-	"E:\\National Instruments\\Shared\\CVI\\include"
-	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+HDRS = 	"d:\\national instruments\\cvi2015\\toolslib\\activex\\word"
+	"d:\\national instruments\\cvi2015\\toolslib\\activex\\excel"
+	"d:\\national instruments\\cvi2015\\toolslib\\custctrl"
+	"d:\\national instruments\\cvi2015\\toolslib\\custctrl\\custsupp"
+	"d:\\national instruments\\cvi2015\\toolslib\\cvirtsup"
+	"d:\\national instruments\\cvi2015\\toolslib\\datasock"
+	"d:\\national instruments\\cvi2015\\toolslib\\daqUtil"
+	"d:\\national instruments\\cvi2015\\toolslib\\printing"
+	"d:\\national instruments\\cvi2015\\toolslib\\toolbox"
+	"d:\\national instruments\\cvi2015\\toolslib\\reportgen"
+	"d:\\national instruments\\cvi2015\\toolslib\\localui"
+	"d:\\national instruments\\cvi2015\\instr"
+	"D:\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"D:\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"D:\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\instr"
+	"d:\\national instruments\\cvi2015\\include"
+	"D:\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\include"
 	"C:\\ProgramData\\National Instruments\\CVI\\include"
-	"e:\\national instruments\\national instruments\\cvi2013\\include\\ansi"
-	"e:\\national instruments\\national instruments\\cvi2013\\include\\clang\\2.9"
+	"d:\\national instruments\\cvi2015\\include\\ansi"
+	"d:\\national instruments\\cvi2015\\include\\clang\\3.3"
 	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
 	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
-	"e:\\national instruments\\national instruments\\cvi2013\\sdk\\include"
-	"e:\\National Instruments\\National Instruments\\CVI2013\\bin"
-	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
-	"e:\\National Instruments\\Shared\\CVI\\Bin"
+	"D:\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"d:\\National Instruments\\CVI2015\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2015\\bin"
+	"d:\\National Instruments\\Shared\\CVI\\Bin"
 	;
 include Jamfile_instr ;
-LOCATE on "Whac-A-Mole.c" = "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole" ;
-Object "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\Whac-A-Mole.c" ;
-FILENUM on "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" = 1 ;
-DEFPROTS on "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" = "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj.cvidefprots" ;
-OUTFILE on "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" = "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj.out" ;
-PrjObjects += "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" ;
-Object "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\resources.res" : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\resources.in.rc" ;
-MainFromObjects "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" : $(PrjObjects) $(InstrObjects) ;
-Depends "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\link_options.txt" ;
-Depends "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\resources.res" ;
-Depends all : "c:\\Users\\TTLIN\\Desktop\\Whac-A-Mole\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" ;
+LOCATE on "Whac-A-Mole.c" = "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game" ;
+Object "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" : "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\Whac-A-Mole.c" ;
+FILENUM on "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" = 1 ;
+DEFPROTS on "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" = "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" = "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj.out" ;
+PrjObjects += "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.obj" ;
+Object "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\resources.res" : "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\resources.in.rc" ;
+MainFromObjects "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" : "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" : "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\User\\Desktop\\Whac-A-Mole-Game\\cvibuild.Whac-A-Mole\\Debug\\Whac-A-Mole.exe" ;
